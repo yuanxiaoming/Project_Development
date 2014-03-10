@@ -1,19 +1,20 @@
 package com.cs.animationvideo;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import com.cs.animationvideo.slidingmenu.SlidingFragmentActivity;
+import com.cs.animationvideo.util.ImageLoaderUtil;
+import com.cs.animationvideo.widget.SlidingMenu;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.text.TextUtils;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
 import android.view.Window;
-import com.cs.animationvideo.slidingmenu.SlidingFragmentActivity;
-import com.cs.animationvideo.util.ImageLoaderUtil;
-import com.cs.animationvideo.widget.SlidingMenu;
-import com.nostra13.universalimageloader.core.DisplayImageOptions;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public abstract class BaseActivity extends SlidingFragmentActivity implements OnClickListener{
     protected FragmentActivity mContext ;
