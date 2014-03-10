@@ -16,6 +16,7 @@
 package com.viewpagerindicator;
 
 import uk.co.senab.photoview.R;
+
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;

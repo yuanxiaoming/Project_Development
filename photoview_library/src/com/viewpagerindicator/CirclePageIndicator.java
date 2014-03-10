@@ -20,6 +20,7 @@ import static android.graphics.Paint.ANTI_ALIAS_FLAG;
 import static android.widget.LinearLayout.HORIZONTAL;
 import static android.widget.LinearLayout.VERTICAL;
 import uk.co.senab.photoview.R;
+
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -564,7 +565,7 @@ public class CirclePageIndicator extends View implements PageIndicator {
 		this.circlePageChangeListener = circlePageChangeListener;
 	}
 
-	//自己加的回调方法
+	//锟皆硷拷锟接的回碉拷锟斤拷锟斤拷
     public interface OnCirclePageChangeListener{
     	void onPageSelected(int position);
     }

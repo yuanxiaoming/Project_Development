@@ -19,6 +19,7 @@ package com.viewpagerindicator;
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 import uk.co.senab.photoview.R;
+
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
@@ -292,7 +293,7 @@ public class TabPageIndicator extends HorizontalScrollView implements PageIndica
 		this.onMyPageChangeListener = onMyPageChangeListener;
 	}
 
-	//自己加的回调方法
+	//锟皆硷拷锟接的回碉拷锟斤拷锟斤拷
     public interface OnMyPageChangeListener{
     	void onPageSelected(int position);
     }
