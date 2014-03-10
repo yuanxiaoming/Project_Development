@@ -16,6 +16,11 @@ import android.view.Window;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * test push commit
+ * @author Administrator
+ *
+ */
 public abstract class BaseActivity extends SlidingFragmentActivity implements OnClickListener{
     protected FragmentActivity mContext ;
     protected DisplayImageOptions mOptions ;
