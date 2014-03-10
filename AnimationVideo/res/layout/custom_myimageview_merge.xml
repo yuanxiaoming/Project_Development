@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/iv_custom_myimageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/biz_news_specialmedia_default_bg" />
+
+    <TextView
+        android:id="@+id/tv_custom_myimageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_myimageview"
+        android:text="sss"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</merge>

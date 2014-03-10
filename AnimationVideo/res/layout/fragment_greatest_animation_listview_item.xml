@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res/com.cs.animationvideo">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gl_great_animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="2" >
+
+        <com.cs.animationvideo.widget.MyImageView
+            android:id="@+id/image1_greatest_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_margin="5dp"
+            app:scaleType="centerCrop"
+            android:scaleType="centerCrop"
+            android:src="@drawable/biz_news_specialmedia_default_bg" />
+
+        <com.cs.animationvideo.widget.MyImageView
+            android:id="@+id/image2_greatest_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/biz_news_specialmedia_default_bg" />
+
+        <com.cs.animationvideo.widget.MyImageView
+            android:id="@+id/image3_greatest_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/biz_news_specialmedia_default_bg" />
+
+        <com.cs.animationvideo.widget.MyImageView
+            android:id="@+id/image4_greatest_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/biz_news_specialmedia_default_bg" />
+
+        <com.cs.animationvideo.widget.MyImageView
+            android:id="@+id/image5_greatest_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_news_specialmedia_default_bg" />
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>

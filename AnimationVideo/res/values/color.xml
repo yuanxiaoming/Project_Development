@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_forget_password">#ff0099cc</color>
+    
+    <color name="grid_state_pressed">#d0d0d0</color>
+    <color name="grid_state_focused">#d0d0d0</color>
+    
+    <color name="white_color">#FFFFFF</color>
+    
+    <color name="color_mobile_recharge_card_textcolor_selected">#00BFFF</color>
+    <color name="color_mobile_recharge_card_textcolor_normal">#000000</color>
+    
+    
+    <color name="color_platform_display_textcolor_selected">#00BFFF</color>
+    <color name="color_platform_display_textcolor_normal">#000000</color>
+    
+    <color name="sliding_list_state_pressed">#BB7dbcd3</color>
+    <color name="sliding_list_state_focused">#777dbcd3</color>
+</resources>
