@@ -15,6 +15,11 @@ import com.cs.animationvideo.util.ImageLoaderUtil;
 import com.cs.animationvideo.widget.SlidingMenu;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 
+/**
+ * test push commit
+ * @author Administrator
+ *
+ */
 public abstract class BaseActivity extends SlidingFragmentActivity implements OnClickListener{
     protected FragmentActivity mContext ;
     protected DisplayImageOptions mOptions ;
