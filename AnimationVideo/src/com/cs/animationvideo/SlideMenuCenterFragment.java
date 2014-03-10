@@ -48,7 +48,7 @@ public class SlideMenuCenterFragment extends BaseFragment {
 
         //get server data
         RequestParams params = new RequestParams();
-        params.put("limit","30");//ï¿½ï¿½ï¿½ï¿½35ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½Ò»ï¿½ï¿½Ò³ï¿½ï¿½20ï¿½ï¿½ ï¿½Ú¶ï¿½ï¿½ï¿½Ò³ï¿½ï¿½15ï¿½ï¿½ï¿½ï¿½ï¿½
+        params.put("limit","30");
         params.put("id", String.valueOf(m_id));
         params.put("page", "1");
         BaseParse<GroupContent> parser = new GroupContentParser();
@@ -128,7 +128,8 @@ public class SlideMenuCenterFragment extends BaseFragment {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            return position == 0?"ï¿½ï¿½Ñ¡":"È«ï¿½ï¿½";
+         //    return position == 0?"ï¿½ï¿½Ñ¡":"È«ï¿½ï¿½";
+            return position == 0?"¾­µä¾«Ñ¡":"×îÐÂÈÈÃÅ";
         }
     }
 }
